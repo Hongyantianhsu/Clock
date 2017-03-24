@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Clock">
+        <attr name="dial" format="reference"/>
+        <attr name="dial_hour" format="reference"/>
+        <attr name="dial_minute" format="reference"/>
+        <attr name="dial_second" format="reference"/>
+        <attr name="dial_point" format="reference"/>
+        <attr name="scalenum" format="float"/>
+    </declare-styleable>
+</resources>
