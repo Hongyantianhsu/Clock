@@ -16,7 +16,7 @@ import android.view.View;
 import java.util.TimeZone;
 
 /**
- * 自定义时钟01
+ * 自定义时钟
  * 关于MeasureSpec确定过程，请点https://juejin.im/entry/5767a69e207703006bbd269f
  * Created by sunyan on 17/3/22.
  */
@@ -277,7 +277,6 @@ public class Aclock01 extends View {
 
         @Override
         public void onTick(long millisUntilFinished) {
-//            L.e("onTick---------------------");
             mCalendar.setToNow();
             mSecond= mCalendar.second;
             mSeconds = true;
